@@ -24,3 +24,9 @@ jobs:
       # Выполняем команду tree в текущей директории
       - name: Print project tree
         run: tree .
+
+      - name: Show current dur
+        run:
+             pwd
+      - name: List all files
+        run: ls -la
