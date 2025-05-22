@@ -12,7 +12,6 @@ jobs:
       - name: Print project tree
         run: tree .
 
-    steps:
       - name: Run flake8 to check PEP8
         run: |
             pip install flake8
